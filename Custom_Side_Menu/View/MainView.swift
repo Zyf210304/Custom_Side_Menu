@@ -68,6 +68,8 @@ struct MainView: View {
                 }
                 .padding(.leading, -15)
                 .padding(.top, 50)
+                
+                //uplaod
             }
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
