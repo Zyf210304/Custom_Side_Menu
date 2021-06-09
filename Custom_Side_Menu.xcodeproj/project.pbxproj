@@ -16,6 +16,8 @@
 		00EEE7192636AF95002292B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00EEE7182636AF95002292B7 /* Preview Assets.xcassets */; };
 		00EEE71C2636AF95002292B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00EEE71A2636AF95002292B7 /* LaunchScreen.storyboard */; };
 		00EEE72B2636B2AF002292B7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EEE72A2636B2AF002292B7 /* MainView.swift */; };
+		026BBFE6267067F500754F4F /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026BBFE5267067F500754F4F /* SideMenu.swift */; };
+		026BBFE8267068C700754F4F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026BBFE7267068C700754F4F /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		00EEE71B2636AF95002292B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00EEE71D2636AF95002292B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00EEE72A2636B2AF002292B7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		026BBFE5267067F500754F4F /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		026BBFE7267068C700754F4F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,8 @@
 				00EEE72A2636B2AF002292B7 /* MainView.swift */,
 				006F0A19266F5B6000A41840 /* TabButton.swift */,
 				006F0A1C266F62ED00A41840 /* CustomCorners.swift */,
+				026BBFE5267067F500754F4F /* SideMenu.swift */,
+				026BBFE7267068C700754F4F /* Home.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,8 +171,10 @@
 				00EEE7102636AF92002292B7 /* AppDelegate.swift in Sources */,
 				006F0A1D266F62ED00A41840 /* CustomCorners.swift in Sources */,
 				00EEE72B2636B2AF002292B7 /* MainView.swift in Sources */,
+				026BBFE6267067F500754F4F /* SideMenu.swift in Sources */,
 				00EEE7122636AF92002292B7 /* SceneDelegate.swift in Sources */,
 				006F0A1A266F5B6000A41840 /* TabButton.swift in Sources */,
+				026BBFE8267068C700754F4F /* Home.swift in Sources */,
 				00EEE7142636AF92002292B7 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
